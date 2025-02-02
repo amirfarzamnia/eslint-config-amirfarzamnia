@@ -2,6 +2,7 @@ import eslintJS from "@eslint/js";
 import stylisticJS from "@stylistic/eslint-plugin-js";
 import stylisticTS from "@stylistic/eslint-plugin-ts";
 import eslintTS from "typescript-eslint";
+import eslintConfigPrettier from "eslint-config-prettier";
 
 const linesAroundCommentRuleOptions = {
   beforeBlockComment: true,
@@ -24,6 +25,9 @@ export default [
     },
     rules: {
       "array-callback-return": "error",
+      "no-alert": "error",
+      "no-implicit-globals": "error",
+      "no-script-url": "error",
       "no-console": "error",
       "no-constructor-return": "error",
       "no-self-compare": "error",
@@ -344,6 +348,12 @@ export default [
         }
       ],
       "@stylistic/js/lines-around-comment": "off"
+    }
+  },
+  eslintConfigPrettier,
+  {
+    rules: {
+      curly: "warn"
     }
   }
 ];
