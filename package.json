@@ -1,4 +1,5 @@
 {
+  "name": "@amirfarzamnia/eslint-config",
   "main": "index.js",
   "type": "module",
   "peerDependencies": {
