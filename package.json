@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "type": "module",
+  "license": "MIT",
   "peerDependencies": {
     "@eslint/js": "^9.19.0",
     "@stylistic/eslint-plugin-js": "^3.0.1",
