@@ -49,7 +49,6 @@ export default [
         }
       ],
       "grouped-accessor-pairs": "error",
-      "id-length": "error",
       "logical-assignment-operators": "error",
       "no-array-constructor": "error",
       "no-bitwise": "error",
